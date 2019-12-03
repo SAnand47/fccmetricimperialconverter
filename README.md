@@ -26,10 +26,10 @@
 
 ### Example usage:
 
-`/api/convert?input=4gal`  
-`/api/convert?input=1/2km`  
-`/api/convert?input=5.4/3lbs`  
-`/api/convert?input=kg`  
+https://fccimperconverter.glitch.me/api/convert?input=4gal  
+https://fccimperconverter.glitch.me/api/convert?input=1/2km  
+https://fccimperconverter.glitch.me/api/convert?input=5.4/3lbs  
+https://fccimperconverter.glitch.me/api/convert?input=kg  
 
 ### Example return:
 
