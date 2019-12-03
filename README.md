@@ -7,14 +7,6 @@
 4) You will create all of the functional/unit tests in `tests/2_functional-tests.js` and `tests/1_unit-tests.js`
 
 
-<header>
-
-# ISQA_2 - Metric/Imp Converter
-
-</header>
-
-<div id="userstories" style="margin-left: 5%; margin-top: 5%">
-
 ### User Stories
 
 1.  I will help prevent the client from trying to guess(sniff) the MIME type.
@@ -44,15 +36,3 @@
 `{initNum: 3.1, initUnit: 'mi', returnNum: 5.0000008, returnUnit: 'km', string: '3.1 miles converts to 5.00002 kilometers'}`</div>
 
 * * *
-
-<div id="testui" style="margin-left: 5%">
-
-## Front-End:
-
-<form id="convertForm" class="border"><input type="text" id="convertField" name="input" placeholder="3.1mi" style="width: 200px"> <input id="convert" type="submit" value="Convert!"></form>
-
-</div>
-
-* * *
-
-<script>$(function() { $('#convertForm').submit(function() { event.preventDefault(); $.ajax({ url: '/api/convert', type: 'get', data: $('#convertForm').serialize(), success: function(data) { $('#result').text(data.string || ("Error - "+ $('#convertField').val())); $('#result').css("font-size","16px"); $('#jsonResult').text(JSON.stringify(data)); } }); }); });</script>
